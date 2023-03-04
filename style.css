@@ -1,0 +1,85 @@
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, a, span, th, tr, td {
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-weight: bold;
+    font-size: 25px;
+    width: 50%;
+    margin: 50px 30px 20px;
+    text-underline-offset: 20px;
+}   
+
+body {
+    background-color: #AF1A3D;
+    box-sizing: border-box;
+}
+
+ol > li::marker {
+    font-weight: bold;
+  }
+
+ol {
+    line-height: 30px;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    width: 80%;
+    margin: 25px auto;
+    padding: 70px;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #EFE2E5;
+    
+}
+
+.left,
+.right {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 35px;
+    margin: 20px 30px;
+    text-underline-offset: 20px;
+}
+
+table {
+    background-color: white;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 20px 30px 40px;
+    border: 1px solid #ccc;
+
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #AF1A3D;
+    color: white;
+    
+}
+
+.img {
+    border: 10px solid #EC4169;
+    margin: 30px auto;
+    border-radius: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 7px;
+}
+
+
