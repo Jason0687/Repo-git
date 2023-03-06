@@ -41,6 +41,7 @@ ol {
     width: 50%;
     display: inline-block;
     box-sizing: border-box;
+    
 }
 
 h1 {
@@ -53,7 +54,7 @@ table {
     background-color: white;
     width: 100%;
     border-collapse: collapse;
-    margin: 10px 20px 30px 40px;
+    margin: 50px 20px 30px 40px;
     border: 1px solid #ccc;
 
 }
@@ -80,6 +81,15 @@ img {
     height: auto;
     display: block;
     border-radius: 7px;
+    
+}
+
+.gif {
+    width: 45%;
+    border-radius: 10px;
+    margin: 100px 40px 10px 35px;
+    position: absolute;
+    bottom: 10%;
 }
 
 
